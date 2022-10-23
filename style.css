@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #000;
+
+}
+.devider{
+	background-color: #eee;
+}
+
+
+/*Design Showcase Background Image*/
+#intro{
+	  
+      background-image: url('img/intro.jpg');
+	  background-size: cover;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    @media (min-width: 576px){
+    	#intro{
+    		height: 600px;
+    	}
+    }
+ 
+
+
+ .opl{
+ 	text-align: right;
+	
+   
+
+ }
+
+ /*Design Book table Area*/
+ #book {
+ 	background-image: url(img/book.jpg);
+ 	 height: 300px;
+ 	 background-size: cover;
+ }
